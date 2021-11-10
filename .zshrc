@@ -9,10 +9,12 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Aliases
-alias ls="ls -laG"
-alias la="ls -lG"
+alias la="ls -laG"
+alias ls="ls -lG"
 alias v="nvim"
-alias ga="git a"
+alias ga="git add"
+alias gs="git status"
 alias gc="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
+alias ta="tmux attach"
