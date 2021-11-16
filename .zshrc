@@ -20,3 +20,5 @@ alias gc="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
 alias ta="tmux attach"
+alias ssh="kitty +kitten ssh"
+
