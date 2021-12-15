@@ -15,3 +15,6 @@ set nu
 set relativenumber
 set noerrorbells
 set nohlsearch
+
+" custom remaps
+noremap <C-F> :Files<CR>
